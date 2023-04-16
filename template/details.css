@@ -1,0 +1,156 @@
+/* Style de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a.logo {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Détails du livre */
+.details {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.book-cover {
+    flex: 1;
+    max-width: 400px;
+    margin-right: 50px;
+}
+
+.book-cover img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.book-details {
+    flex: 1;
+    max-width: 600px;
+}
+
+.book-details h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.book-details p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.book-details p a {
+    color: #008cba;
+    text-decoration: none;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+/* Boutons */
+.buttons {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #008cba;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #006c84;
+}
+
+.btn-secondary {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.btn-secondary:hover {
+    background-color: #eee;
+}
+
+/* Avis des utilisateurs */
+.reviews {
+    margin-top: 50px;
+}
+
+.review {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.review h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.review p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.review small {
+    font-size: 0.8em;
+    color: #999;
+}
+
+.review img {
+    max-width: 50px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}

@@ -1,0 +1,269 @@
+/* Style de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a.logo {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Bannière */
+.banner {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #008cba;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #006c84;
+}
+
+/* Barre de recherche */
+.search-bar {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.search-bar form {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-bar button[type="submit"]
+{
+    background-color: #008cba;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button[type="submit"]:hover {
+    background-color: #006c84;
+}
+
+/* Suggestions de livres */
+.book-suggestions {
+    margin-top: 50px;
+}
+
+.book-suggestions h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.book-suggestions .carousel-container {
+    display: flex;
+    overflow-x: auto;
+    margin-bottom: 30px;
+}
+
+.book-suggestions .carousel-item {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.book-suggestions .carousel-item img {
+    max-width: 100%;
+}
+
+/* Derniers ajouts */
+.latest-additions {
+    margin-top: 50px;
+}
+
+.latest-additions h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.latest-additions .carousel-container {
+    display: flex;
+    overflow-x: auto;
+    margin-bottom: 30px;
+}
+
+.latest-additions .carousel-item {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.latest-additions .carousel-item img {
+    max-width: 100%;
+}
+
+/* Genres de livres */
+.book-genres {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.book-genres .book-genre {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+}
+
+.book-genres .book-genre img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.book-genres .book-genre h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.book-genres .book-genre p {
+    font-size: 1.2em;
+    color: #888;
+}
+
+/* Footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    color: #888;
+    font-size: 0.8em;
+    margin-top: 50px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.search-container input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+}
+
+.search-container button[type=submit] {
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.search-results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.book-thumbnail {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.book-thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+.book-thumbnail h3 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.book-thumbnail p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.book-thumbnail button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.book-thumbnail button:hover {
+    background-color: #3e8e41;
+}
+
+
+/* Path: index.html */
